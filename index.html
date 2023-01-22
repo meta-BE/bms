@@ -15,8 +15,8 @@
     <table cellspacing="1" cellpadding=2 id="bmstable">
       <tr style="color:white;background-color:#666666" height="20">
         <td>Lv</td>
-        <td>Title</td>
-        <td>Artist</td>
+        <td>Title / LR2IR</td>
+        <td>Artist / BMS</td>
         <td>Chart</td>
         <td>Comment</td>
       </tr>
@@ -53,12 +53,12 @@
       row.insertCell(-1).appendChild(document.createTextNode(song.comment ?? ""))
     }
 
-    const addLevel = (tableRef, level) => {
+    const addLevel = (tableRef, symbol, level) => {
       const cell = tableRef.insertRow(-1).insertCell(-1)
       cell.setAttribute("colspan", 6)
       cell.classList.add('level' + level)
       cell.style.textAlign = "center"
-      cell.appendChild(document.createTextNode(`Σ${level}`))
+      cell.appendChild(document.createTextNode(`${symbol}${level}`))
     }
 
     const modifyBeforeLevel = (level, count) => {
@@ -71,6 +71,7 @@
       let currentLevel = undefined
       let songsCountInLevel = 0
       const tableRef = document.querySelector('table[id="bmstable"]')
+      const symbol = header.symbol
       console.log(tableRef)
       data.forEach(song => {
         if (currentLevel !== song.level) {
@@ -79,7 +80,7 @@
           }
           songsCountInLevel = 0
           currentLevel = song.level
-          addLevel(tableRef, currentLevel)
+          addLevel(tableRef, symbol, currentLevel)
         }
         addSong(tableRef, song)
         songsCountInLevel++
