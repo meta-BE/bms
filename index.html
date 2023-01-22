@@ -67,12 +67,10 @@
     }
 
     const makeTable = (header, data) => {
-      console.log(header, data)
       let currentLevel = undefined
       let songsCountInLevel = 0
-      const tableRef = document.querySelector('table[id="bmstable"]')
+      const tableRef = document.querySelector('table#bmstable')
       const symbol = header.symbol
-      console.log(tableRef)
       data.forEach(song => {
         if (currentLevel !== song.level) {
           if (currentLevel !== undefined) {
