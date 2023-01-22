@@ -1,132 +1,101 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
   <title>○○難易度表</title>
-  <meta http-equiv="Content-Script-Type" content="text/javascript" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
-  <meta name="bmstable" content="https://bms.congenial-spirits.com/header.json" />
-  <link href="style.css" rel="stylesheet" type="text/css" media="screen,print" />
-  <script src="jquery-2.0.2.min.js"></script>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon.png" />
+  <meta name="bmstable" content="./header.json" />
+  <meta name="viewport" content="width=device-width" />
 </head>
 
 <body class="diff">
-  <script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/encount"></script>
-  <div style="text-align: center;">
-    <div style="display: inline-block; position: relative; z-index: 9999;">
-      <script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=435"></script>
-      <script type="text/javascript" charset="utf-8" src="/__sys__inactive_message.js"></script>
-    </div>
-  </div>
-  <p style="color:#ffffee">次期難易度表フォーマットに対応した表作成用ページです。<br />
-    metaタグ(name="bmstable")からヘッダ部のURL(header.json)を取得し、ヘッダ部からデータ部URL(score.json)と記号を抽出します。<br />
-    その後、データ部を読み込み、テーブルを作成しています。<br />
-    <br />
-    改変、再使用はご自由にどうぞ。
-  </p>
   <!--　　　　　ここから難易度表本体　　　　　-->
   <div class="tableflame">
-    <table align="center" cellspacing="1" cellpadding=2　border="0" bgcolor="#000000" id="table_int">
+    <table cellspacing="1" cellpadding=2 id="bmstable">
+      <tr style="color:white;background-color:#666666" height="20">
+        <td>Lv</td>
+        <td>Title</td>
+        <td>Artist</td>
+        <td>Chart</td>
+        <td>Comment</td>
+      </tr>
     </table>
   </div>
   <script language="javascript" type="text/javascript">
-    $(document).ready(function () {
-      $.getJSON($("meta[name=bmstable]").attr("content"), function (header) {
-        $.getJSON(header.data_url, function (information) {
-          makeBMSTable(information, header.symbol);
-        });
-      });
-    });
-
-    function makeBMSTable(info, mark) {
-      var x = "";
-      var ev = "";
-      var count = 0;
-      var obj = $("#table_int");
-      // 表のクリア
-      obj.html("");
-      $("<tr height='20' style='color:white;background-color:#666666'><td align='center'>LV</td><td align='center'>タイトル</td><td align='center'>本体</td><td align='center'>差分</td><td align='center'>コメント</td></tr>").appendTo(obj);
-      var obj_sep = null;
-      for (var i = 0; i < info.length; i++) {
-        // 難度ごとの区切り
-        if (x != info[i].level) {
-          // 前の区切りに譜面数、平均密度を追加
-          if (obj_sep != null) {
-            obj_sep.html("<td colspan='6' align='center'>" + "<b>" + mark + x + " (" + count + "譜面)</b></td>");
-          }
-          obj_sep = $("<tr class='tr_separate' id='" + mark + info[i].level + "'></tr>");
-          obj_sep.appendTo(obj);
-          count = 0;
-          x = info[i].level;
-        }
-        // 本文
-        var str = $("<tr class='tr_normal'></tr>");
-        if (info[i].state == 1) {
-          str = $("<tr class='tr_new'></tr>");
-        }
-        if (info[i].state == 2) {
-          str = $("<tr class='tr_update'></tr>");
-        }
-        // レベル表記
-        $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
-        // タイトル
-        $("<td width='20%'>" + "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[i].md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
-        // アーティスト
-        var astr = "";
-        if (info[i].url != null) {
-          if (info[i].artist != null) {
-            astr = "<a href='" + info[i].url + "'>" + info[i].artist + "</a>";
-          } else {
-            astr = "<a href='" + info[i].url + "'>" + info[i].url + "</a>";
-          }
-        } else {
-          if (info[i].artist != null) {
-            astr = info[i].artist;
-          }
-        }
-        if (info[i].url_pack != null) {
-          if (info[i].name_pack != null) {
-            astr += "<br />(<a href='" + info[i].url_pack + "'>" + info[i].name_pack + "</a>)";
-          } else {
-            astr += "<br />(<a href='" + info[i].url_pack + "'>" + info[i].url_pack + "</a>)";
-          }
-        } else {
-          if (info[i].name_pack != null) {
-            astr += "<br />(" + info[i].name_pack + ")";
-          }
-        }
-        $("<td width='20%'>" + astr + "</td>").appendTo(str);
-        // 差分
-        if (info[i].url_diff != null) {
-          if (info[i].name_diff != null) {
-            $("<td width='10%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
-          } else {
-            $("<td width='10%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
-          }
-        } else {
-          if (info[i].name_diff != null) {
-            $("<td width='10%'>" + info[i].name_diff + "</td>").appendTo(str);
-          } else {
-            $("<td width='10%'></td>").appendTo(str);
-          }
-        }
-        // コメント
-        $("<td width='15%'>" + info[i].comment + "</td>").appendTo(str);
-        str.appendTo(obj);
-        count++;
+    const addSong = (tableRef, song) => {
+      const row = tableRef.insertRow(-1)
+      // level
+      row.insertCell(-1).appendChild(document.createTextNode(song.level))
+      // title & lr2ir
+      const title = document.createElement("a")
+      title.href = "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + song.md5
+      title.setAttribute("target", "_blank")
+      title.appendChild(document.createTextNode(song.title))
+      row.insertCell(-1).appendChild(title)
+      // artist & url
+      if (song?.url) {
+        const artist = document.createElement("a")
+        artist.href = song.url
+        artist.setAttribute("target", "_blank")
+        artist.appendChild(document.createTextNode(song.artist))
+        row.insertCell(-1).appendChild(artist)
+      } else {
+        row.insertCell(-1).appendChild(document.createTextNode(song.artist))
       }
-      // 最後の区切り処理
-      if (obj_sep != null) {
-        obj_sep.html("<td colspan='6' align='center'>" + "<b>" + mark + x + " (" + count + "譜面)</b></td>");
-      }
+      // chart
+      const score = document.createElement("a")
+      score.href = song.url_diff
+      score.setAttribute("download", "")
+      score.appendChild(document.createTextNode("DL"))
+      row.insertCell(-1).appendChild(score)
+      // comment
+      row.insertCell(-1).appendChild(document.createTextNode(song.comment ?? ""))
     }
+
+    const addLevel = (tableRef, level) => {
+      const cell = tableRef.insertRow(-1).insertCell(-1)
+      cell.setAttribute("colspan", 6)
+      cell.classList.add('level' + level)
+      cell.style.textAlign = "center"
+      cell.appendChild(document.createTextNode(`Σ${level}`))
+    }
+
+    const modifyBeforeLevel = (level, count) => {
+      const target = document.querySelector('table#bmstable td.level' + level)
+      target.innerHTML = target.innerHTML + ` (${count} Songs)`
+    }
+
+    const makeTable = (header, data) => {
+      console.log(header, data)
+      let currentLevel = undefined
+      let songsCountInLevel = 0
+      const tableRef = document.querySelector('table[id="bmstable"]')
+      console.log(tableRef)
+      data.forEach(song => {
+        if (currentLevel !== song.level) {
+          if (currentLevel !== undefined) {
+            modifyBeforeLevel(currentLevel, songsCountInLevel)
+          }
+          songsCountInLevel = 0
+          currentLevel = song.level
+          addLevel(tableRef, currentLevel)
+        }
+        addSong(tableRef, song)
+        songsCountInLevel++
+      });
+      modifyBeforeLevel(currentLevel, songsCountInLevel)
+    }
+
+    const headerUrl = document.querySelector('meta[name="bmstable"]').content
+
+    fetch(headerUrl)
+      .then(response => response.json())
+      .then((header) => fetch(header.data_url)
+        .then(response => response.json())
+        .then((data) => makeTable(header, data))
+      );
   </script>
-  <div style="text-align: center;">
-    <div style="display: inline-block; position: relative; z-index: 9999;">
-      <script type="text/javascript" charset="utf-8" src="//asumi.shinobi.jp/fire?f=434"></script>
-    </div>
-  </div>
 </body>
 
 </html>

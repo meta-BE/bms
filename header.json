@@ -1,5 +1,5 @@
 {
     "name": "meta自作差分一覧",
     "symbol": "Σ",
-    "data_url": "https://bms.congenial-spirits.com/data.json"
+    "data_url": "/data.json"
 }
