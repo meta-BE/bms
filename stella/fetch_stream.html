@@ -2,9 +2,9 @@
 <html lang="ja">
 
 <head>
-  <title>meta自作差分一覧</title>
+  <title>stella</title>
   <meta charset="utf-8" />
-  <link rel="icon" href="./favicon.png" />
+  <link rel="icon" href="/favicon.png" />
   <meta name="bmstable" content="./header.json" />
   <meta name="viewport" content="width=device-width" />
 </head>
@@ -86,14 +86,63 @@
       modifyBeforeLevel(currentLevel, songsCountInLevel)
     }
 
-    const headerUrl = document.querySelector('meta[name="bmstable"]').content
+    // see https://developer.mozilla.org/ja/docs/Web/API/ReadableStreamDefaultReader/read
+    async function* makeTextFileLineIterator(fileURL) {
+      const utf8Decoder = new TextDecoder('utf-8');
+      const response = await fetch(fileURL);
+      const reader = response.body.getReader();
+      let { value: chunk, done: readerDone } = await reader.read();
+      chunk = chunk ? utf8Decoder.decode(chunk) : '';
 
-    fetch(headerUrl)
-      .then(response => response.json())
-      .then((header) => fetch(header.data_url)
+      const re = /\n|\r|\r\n/gm;
+      let startIndex = 0;
+      let result;
+
+      while (true) {
+        let result = re.exec(chunk);
+        if (!result) {
+          if (readerDone) break;
+          let remainder = chunk.substr(startIndex);
+          ({ value: chunk, done: readerDone } = await reader.read());
+          chunk = remainder + (chunk ? utf8Decoder.decode(chunk) : '');
+          startIndex = re.lastIndex = 0;
+          continue;
+        }
+        yield chunk.substring(startIndex, result.index);
+        startIndex = re.lastIndex;
+      }
+
+      if (startIndex < chunk.length) {
+        // Last line didn't end in a newline char
+        yield chunk.substr(startIndex);
+      }
+    }
+
+    async function run() {
+      const header = await fetch(document.querySelector('meta[name="bmstable"]').content)
         .then(response => response.json())
-        .then((data) => makeTable(header, data))
-      );
+
+      let currentLevel = undefined
+      let songsCountInLevel = 0
+      const tableRef = document.querySelector('table#bmstable')
+      const symbol = header.symbol
+      for await (const line of makeTextFileLineIterator("./data.jsonl")) {
+        const song = JSON.parse(line)
+        if (currentLevel !== song.level) {
+          if (currentLevel !== undefined) {
+            modifyBeforeLevel(currentLevel, songsCountInLevel)
+          }
+          songsCountInLevel = 0
+          currentLevel = song.level
+          addLevel(tableRef, symbol, currentLevel)
+        }
+        addSong(tableRef, song)
+        songsCountInLevel++
+      }
+      modifyBeforeLevel(currentLevel, songsCountInLevel)
+    }
+
+    run();
   </script>
 </body>
 
