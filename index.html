@@ -24,33 +24,33 @@
   </div>
   <script language="javascript" type="text/javascript">
     const addSong = (tableRef, song) => {
-      const row = tableRef.insertRow(-1)
+      const rowRef = tableRef.insertRow(-1)
       // level
-      row.insertCell(-1).appendChild(document.createTextNode(song.level))
+      rowRef.insertCell(-1).appendChild(document.createTextNode(song.level))
       // title & lr2ir
       const title = document.createElement("a")
       title.href = "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + song.md5
       title.setAttribute("target", "_blank")
       title.appendChild(document.createTextNode(song.title))
-      row.insertCell(-1).appendChild(title)
+      rowRef.insertCell(-1).appendChild(title)
       // artist & url
       if (song?.url) {
         const artist = document.createElement("a")
         artist.href = song.url
         artist.setAttribute("target", "_blank")
         artist.appendChild(document.createTextNode(song.artist))
-        row.insertCell(-1).appendChild(artist)
+        rowRef.insertCell(-1).appendChild(artist)
       } else {
-        row.insertCell(-1).appendChild(document.createTextNode(song.artist))
+        rowRef.insertCell(-1).appendChild(document.createTextNode(song.artist))
       }
       // chart
       const score = document.createElement("a")
       score.href = song.url_diff
       score.setAttribute("download", "")
       score.appendChild(document.createTextNode("DL"))
-      row.insertCell(-1).appendChild(score)
+      rowRef.insertCell(-1).appendChild(score)
       // comment
-      row.insertCell(-1).appendChild(document.createTextNode(song.comment ?? ""))
+      rowRef.insertCell(-1).appendChild(document.createTextNode(song.comment ?? ""))
     }
 
     const addLevel = (tableRef, symbol, level) => {
