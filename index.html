@@ -7,13 +7,42 @@
   <link rel="icon" href="./favicon.png" />
   <meta name="bmstable" content="./header.json" />
   <meta name="viewport" content="width=device-width" />
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    tr td {
+      text-align: center;
+      height: 2em;
+    }
+
+    tr.table_header,
+    tr.row_level {
+      color: white;
+      background-color: #222;
+    }
+
+    tr:nth-child(odd).row_song {
+      background-color: #eeeeee;
+    }
+
+    tr:nth-child(even).row_song {
+      background-color: #d0d0d0;
+    }
+
+    tr:hover.row_song {
+      background-color: #bbbbbb;
+    }
+  </style>
 </head>
 
 <body class="diff">
-  <!--　　　　　ここから難易度表本体　　　　　-->
+  <!-- ここから難易度表本体 -->
   <div class="tableflame">
     <table cellspacing="1" cellpadding=2 id="bmstable">
-      <tr style="color:white;background-color:#666666" height="20">
+      <tr class="table_header">
         <td>Lv</td>
         <td>Title / LR2IR</td>
         <td>Artist / BMS</td>
@@ -22,11 +51,13 @@
       </tr>
     </table>
   </div>
+  <!-- 難易度表読み込みスクリプト -->
   <script language="javascript" type="text/javascript">
-    const addSong = (tableRef, song) => {
+    const addSong = (tableRef, symbol, song) => {
       const rowRef = tableRef.insertRow(-1)
+      rowRef.classList.add("row_song")
       // level
-      rowRef.insertCell(-1).appendChild(document.createTextNode(song.level))
+      rowRef.insertCell(-1).appendChild(document.createTextNode(`${symbol}${song.level}`))
       // title & lr2ir
       const title = document.createElement("a")
       title.href = "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + song.md5
@@ -44,32 +75,37 @@
         rowRef.insertCell(-1).appendChild(document.createTextNode(song.artist))
       }
       // chart
-      const score = document.createElement("a")
-      score.href = song.url_diff
-      score.setAttribute("download", "")
-      score.appendChild(document.createTextNode("DL"))
-      rowRef.insertCell(-1).appendChild(score)
+      if (song?.url_diff) {
+        const chart = document.createElement("a")
+        chart.href = song.url_diff
+        chart.setAttribute("target", "_blank")
+        chart.appendChild(document.createTextNode("DL"))
+        rowRef.insertCell(-1).appendChild(chart)
+      } else {
+        rowRef.insertCell(-1).appendChild(document.createTextNode("-"))
+      }
       // comment
       rowRef.insertCell(-1).appendChild(document.createTextNode(song.comment ?? ""))
     }
 
     const addLevel = (tableRef, symbol, level) => {
-      const cell = tableRef.insertRow(-1).insertCell(-1)
+      const rowRef = tableRef.insertRow(-1)
+      rowRef.classList.add("row_level")
+      const cell = rowRef.insertCell(-1)
       cell.setAttribute("colspan", 6)
-      cell.classList.add('level' + level)
-      cell.style.textAlign = "center"
+      cell.classList.add("level" + level)
       cell.appendChild(document.createTextNode(`${symbol}${level}`))
     }
 
     const modifyBeforeLevel = (level, count) => {
-      const target = document.querySelector('table#bmstable td.level' + level)
+      const target = document.querySelector("table#bmstable td.level" + level)
       target.innerHTML = target.innerHTML + ` (${count} Songs)`
     }
 
     const makeTable = (header, data) => {
       let currentLevel = undefined
       let songsCountInLevel = 0
-      const tableRef = document.querySelector('table#bmstable')
+      const tableRef = document.querySelector("table#bmstable")
       const symbol = header.symbol
       data.forEach(song => {
         if (currentLevel !== song.level) {
@@ -80,7 +116,7 @@
           currentLevel = song.level
           addLevel(tableRef, symbol, currentLevel)
         }
-        addSong(tableRef, song)
+        addSong(tableRef, symbol, song)
         songsCountInLevel++
       });
       modifyBeforeLevel(currentLevel, songsCountInLevel)
