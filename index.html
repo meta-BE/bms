@@ -88,9 +88,9 @@
       // preview
       if (song?.url_youtube) {
         const preview = document.createElement("a")
-        chart.href = song.url_youtube
-        chart.setAttribute("target", "_blank")
-        chart.appendChild(document.createTextNode("▶"))
+        preview.href = song.url_youtube
+        preview.setAttribute("target", "_blank")
+        preview.appendChild(document.createTextNode("▶"))
         rowRef.insertCell(-1).appendChild(preview)
       } else {
         rowRef.insertCell(-1).appendChild(document.createTextNode("-"))
