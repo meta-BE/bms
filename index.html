@@ -47,6 +47,7 @@
         <td>Title / LR2IR</td>
         <td>Artist / BMS</td>
         <td>Chart</td>
+        <td>Preview</td>
         <td>Comment</td>
       </tr>
     </table>
@@ -84,6 +85,16 @@
       } else {
         rowRef.insertCell(-1).appendChild(document.createTextNode("-"))
       }
+      // preview
+      if (song?.url_youtube) {
+        const preview = document.createElement("a")
+        chart.href = song.url_youtube
+        chart.setAttribute("target", "_blank")
+        chart.appendChild(document.createTextNode("▶"))
+        rowRef.insertCell(-1).appendChild(preview)
+      } else {
+        rowRef.insertCell(-1).appendChild(document.createTextNode("-"))
+      }
       // comment
       rowRef.insertCell(-1).appendChild(document.createTextNode(song.comment ?? ""))
     }
@@ -92,7 +103,7 @@
       const rowRef = tableRef.insertRow(-1)
       rowRef.classList.add("row_level")
       const cell = rowRef.insertCell(-1)
-      cell.setAttribute("colspan", 6)
+      cell.setAttribute("colspan", 7)
       cell.classList.add("level" + level)
       cell.appendChild(document.createTextNode(`${symbol}${level}`))
     }
