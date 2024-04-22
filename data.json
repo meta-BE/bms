@@ -91,16 +91,6 @@
   },
   {
     "level": "8",
-    "title": "Save the Water [Tempest]",
-    "artist": "Nami Haven obj.meta",
-    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=129",
-    "md5": "3b2e1aeeaad80cc5f5b9409a5b7a6e57",
-    "url_diff": "https://stellabms.xyz/upload/2451",
-    "url_youtube": "https://youtu.be/IPXSBOoVdnQ",
-    "comment": "ガチ押し、少しLNと32分"
-  },
-  {
-    "level": "8",
     "title": "アジサイ [Σacrophylla]",
     "artist": "litmus* feat. 薛南 obj.meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=167&event=137",
@@ -111,16 +101,6 @@
   },
   {
     "level": "9",
-    "title": "Life is PIANO [Power is POWER]",
-    "artist": "Junk obj.meta",
-    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=375&event=123",
-    "md5": "12d8d9fe45566ce0c1b8b27ebfad2c2c",
-    "url_diff": "https://stellabms.xyz/upload/390",
-    "url_youtube": "https://youtu.be/vUjNUKiLaBo",
-    "comment": "ガチ押し、ラス殺し"
-  },
-  {
-    "level": "9",
     "title": "Rainforest [IRREGULAR]",
     "artist": "白羽 BGI : やむちゃ / Typography : 千廻 / obj : meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=48&event=141",
@@ -128,6 +108,26 @@
     "url_diff": "https://stellabms.xyz/upload/3184",
     "url_youtube": "https://youtu.be/JxOK0FlTTHc",
     "comment": "超総合譜面、本家風"
+  },
+  {
+    "level": "9",
+    "title": "Save the Water [Tempest]",
+    "artist": "Nami Haven obj.meta",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=129",
+    "md5": "3b2e1aeeaad80cc5f5b9409a5b7a6e57",
+    "url_diff": "https://stellabms.xyz/upload/2451",
+    "url_youtube": "https://youtu.be/IPXSBOoVdnQ",
+    "comment": "ガチ押し、少しLNと32分"
+  },
+  {
+    "level": "10",
+    "title": "Life is PIANO [Power is POWER]",
+    "artist": "Junk obj.meta",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=375&event=123",
+    "md5": "12d8d9fe45566ce0c1b8b27ebfad2c2c",
+    "url_diff": "https://stellabms.xyz/upload/390",
+    "url_youtube": "https://youtu.be/vUjNUKiLaBo",
+    "comment": "ガチ押し、ラス殺し"
   },
   {
     "level": "11",
@@ -152,7 +152,7 @@
   {
     "level": "11",
     "title": "Infinite Dreams [Infinite Delays]",
-    "artist": "あとぅすfeat.橘花音 obj. meta",
+    "artist": "あとぅす feat.橘花音 obj. meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=142",
     "md5": "b1f20bbc68f8c5db874a52a52e724faf",
     "url_diff": "https://stellabms.xyz/upload/3858",
