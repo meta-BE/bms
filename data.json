@@ -7,7 +7,8 @@
     "md5": "3e664bbcf6c420259ad956655f634b39",
     "url_diff": "https://stellabms.xyz/upload/4203",
     "url_youtube": "https://youtu.be/Ct2ZjpDEwAA",
-    "comment": "☆11の難しいところ詰め合わせ"
+    "comment": "☆11の難しいところ詰め合わせ",
+    "published": "2024-07-18"
   },
   {
     "level": "1",
@@ -17,7 +18,8 @@
     "md5": "7852d269029ad2deefaf6d65e9ead8ab",
     "url_diff": "https://stellabms.xyz/upload/3453",
     "url_youtube": "https://youtu.be/AY-LBLdAr3Q",
-    "comment": "総合譜面（皿複合、LN、BSS、微縦連）"
+    "comment": "総合譜面（皿複合、LN、BSS、微縦連）",
+    "published": "2023-12-07"
   },
   {
     "level": "1",
@@ -27,7 +29,8 @@
     "md5": "dd0da159c9a0d156fa7dee0824d2ed66",
     "url_diff": "https://stellabms.xyz/upload/1945",
     "url_youtube": "https://youtu.be/DRU8qMMhoBo",
-    "comment": "リズム難、局所難、低TOTAL"
+    "comment": "リズム難、局所難、低TOTAL",
+    "published": "2022-09-02"
   },
   {
     "level": "2",
@@ -37,7 +40,8 @@
     "md5": "1b44b5fbd4ed918480bb337f4563e273",
     "url_diff": "https://gnqg.rosx.net/upload/upload.cgi?get=00072",
     "url_youtube": "https://youtu.be/G7O2hjNoMjM",
-    "comment": "物量"
+    "comment": "物量",
+    "published": "2016-10-11"
   },
   {
     "level": "4",
@@ -47,27 +51,30 @@
     "md5": "5fd1a11a4cbeecdff028d1ddcc83fd5b",
     "url_diff": "https://gnqg.rosx.net/upload/upload.cgi?get=02421",
     "url_youtube": "https://youtu.be/D4sxs2-21EI",
-    "comment": "皿複合、微縦連"
+    "comment": "皿複合、微縦連",
+    "published": "2018-11-24"
   },
   {
     "level": "6",
     "title": "IN (Horsecore Remix) [SP IRREGULAR]",
-    "artist": "Zris Remixed by Daily BG by Rosa1100 / obj by meta",
+    "artist": "Zris Remixed by Daily / obj by meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=89&event=138",
     "md5": "81c1eaf460279f832e13dd0b8626b000",
     "url_diff": "https://stellabms.xyz/upload/1876",
     "url_youtube": "https://youtu.be/9chNgHKqg4k",
-    "comment": "総合、本家風"
+    "comment": "総合、本家風",
+    "published": "2022-07-28"
   },
   {
     "level": "6",
     "title": "Plastic Heart [Silver Shoes]",
-    "artist": "Abel & Palami mov. KimAutomne & D_Unknown obj. meta",
+    "artist": "Abel & Palami obj. meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=390&event=142",
     "md5": "aa81b12dda5549ef60fd4d7e267eb705",
     "url_diff": "https://stellabms.xyz/upload/3588",
     "url_youtube": "https://youtu.be/tpUUiYLOezM",
-    "comment": "同時押しと乱打、微縦 少しだけソフラン（ギアチェン可）"
+    "comment": "同時押しと乱打、微縦 少しだけソフラン（ギアチェン可）",
+    "published": "2024-01-13"
   },
   {
     "level": "7",
@@ -77,7 +84,8 @@
     "md5": "35f5f4b29226df08a5d4fdd379b5bd0f",
     "url_diff": "https://stellabms.xyz/upload/3859",
     "url_youtube": "https://youtu.be/nkkSS4eXVFg",
-    "comment": "中速乱打、縦連、少しLN"
+    "comment": "中速乱打、縦連、少しLN",
+    "published": "2024-04-21"
   },
   {
     "level": "8",
@@ -87,7 +95,8 @@
     "md5": "db3cf43be08c01b8ba1016a523ae6e75",
     "url_diff": "https://drive.google.com/file/d/14bvg0PMFgAFFN0k1TPLW4OXNRgfyesJg/view?usp=sharing",
     "url_youtube": "https://youtu.be/En8JyCVmynQ",
-    "comment": "連皿"
+    "comment": "連皿",
+    "published": "2023-02-01"
   },
   {
     "level": "8",
@@ -97,7 +106,8 @@
     "md5": "848fcafdb11413ad90c2348690f4cb3c",
     "url_diff": "https://stellabms.xyz/upload/3183",
     "url_youtube": "https://youtu.be/Sx_exrvlNT0",
-    "comment": "高速物量、本家風"
+    "comment": "高速物量、本家風",
+    "published": "2023-09-30"
   },
   {
     "level": "8",
@@ -107,7 +117,19 @@
     "md5": "920681fab30341e9f8f94351e46eb352",
     "url_diff": "https://stellabms.xyz/upload/1962",
     "url_youtube": "https://youtu.be/zE7aLwBVaW0",
-    "comment": "LN絡み、歌詞合わせ"
+    "comment": "LN絡み、歌詞合わせ",
+    "published": "2022-09-11"
+  },
+  {
+    "level": "8",
+    "title": "風時夏 [Long Vacation]",
+    "artist": "otoshi.b BGI:鈴木なるひ obj. meta",
+    "url": "https://venue.bmssearch.net/bmskanji2/23",
+    "md5": "b40456b04fd7d8e6acbcbcc223e27c6f",
+    "url_diff": "https://stellabms.xyz/upload/3965",
+    "url_youtube": "https://youtu.be/3IAozUSWc4w",
+    "comment": "LN、微縦、ソフラン",
+    "published": "2024-05-14"
   },
   {
     "level": "9",
@@ -117,7 +139,8 @@
     "md5": "fd319545bc6bdd17691a6ddeb5b61bb5",
     "url_diff": "https://stellabms.xyz/upload/3184",
     "url_youtube": "https://youtu.be/JxOK0FlTTHc",
-    "comment": "超総合譜面、本家風"
+    "comment": "超総合譜面、本家風",
+    "published": "2023-09-30"
   },
   {
     "level": "9",
@@ -127,7 +150,19 @@
     "md5": "3b2e1aeeaad80cc5f5b9409a5b7a6e57",
     "url_diff": "https://stellabms.xyz/upload/2451",
     "url_youtube": "https://youtu.be/IPXSBOoVdnQ",
-    "comment": "ガチ押し、少しLNと32分"
+    "comment": "ガチ押し、少しLNと32分",
+    "published": "2023-02-03"
+  },
+  {
+    "level": "9",
+    "title": "レシュノルティア [あなたの横に]",
+    "artist": "あとぅす feat.はらもりよしな obj. meta",
+    "url": "https://venue.bmssearch.net/hanadayori/21",
+    "md5": "0bbcf824051b19c6da354c615692d740",
+    "url_diff": "https://stellabms.xyz/upload/4286",
+    "url_youtube": "https://youtu.be/v9iUhGsWyxs",
+    "comment": "横譜面 たまに微縦と濃い乱打も",
+    "published": "2024-08-18"
   },
   {
     "level": "10",
@@ -137,7 +172,8 @@
     "md5": "2a061e4ffba66425086a75915b955cb7",
     "url_diff": "https://stellabms.xyz/upload/4210",
     "url_youtube": "https://youtu.be/1kW_u1j17UA",
-    "comment": "微縦と24分とLN ソフランとギミックも少し"
+    "comment": "微縦と24分とLN ソフランとギミックも少し",
+    "published": "2024-07-20"
   },
   {
     "level": "10",
@@ -147,7 +183,8 @@
     "md5": "12d8d9fe45566ce0c1b8b27ebfad2c2c",
     "url_diff": "https://stellabms.xyz/upload/390",
     "url_youtube": "https://youtu.be/vUjNUKiLaBo",
-    "comment": "ガチ押し、ラス殺し"
+    "comment": "ガチ押し、ラス殺し",
+    "published": "2020-10-03"
   },
   {
     "level": "10",
@@ -157,7 +194,19 @@
     "md5": "12933bd037d8e5197302b1038069b740",
     "url_diff": "https://stellabms.xyz/upload/4119",
     "url_youtube": "https://youtu.be/1pimd04dzFI",
-    "comment": "ガチ押し"
+    "comment": "ガチ押し",
+    "published": "2024-06-20"
+  },
+  {
+    "level": "10",
+    "title": "VECTOR↑ZΣ [ΣATR↑X]",
+    "artist": "Trina Lydia / obj. meta",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=212&event=146",
+    "md5": "950eb6d96b25353b8a300b963c1a9665",
+    "url_diff": "https://darksabun.github.io/event/boftt/sabun/212_fr6_meta.zip",
+    "url_youtube": "https://youtu.be/U1B8ET8_HpY",
+    "comment": "超総合譜面 ソフランとLN強め 差分修正有",
+    "published": "2024-11-30"
   },
   {
     "level": "11",
@@ -167,7 +216,8 @@
     "md5": "7a86048b35c91d6a98b4964328b2be2c",
     "url_diff": "https://stellabms.xyz/upload/1437",
     "url_youtube": "https://youtu.be/z_OUj65mdBI",
-    "comment": "連皿"
+    "comment": "連皿",
+    "published": "2021-12-31"
   },
   {
     "level": "11",
@@ -177,17 +227,8 @@
     "md5": "381691eb04c31daeb1b5375915652f4c",
     "url_diff": "https://stellabms.xyz/upload/1965",
     "url_youtube": "https://youtu.be/e02iji0HpPs",
-    "comment": "st1 物量、ややラス殺し"
-  },
-  {
-    "level": "11",
-    "title": "Infinite Dreams [Infinite Delays]",
-    "artist": "あとぅす feat.橘花音 obj. meta",
-    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=142",
-    "md5": "b1f20bbc68f8c5db874a52a52e724faf",
-    "url_diff": "https://stellabms.xyz/upload/3858",
-    "url_youtube": "https://youtu.be/IeI2JB8A-8U",
-    "comment": "ディレイ、微縦"
+    "comment": "st1 物量、ややラス殺し",
+    "published": "2022-09-14"
   },
   {
     "level": "11",
@@ -197,7 +238,19 @@
     "md5": "06991c7bdc221d6edc030fcfed2bd934",
     "url_diff": "https://stellabms.xyz/upload/4204",
     "url_youtube": "https://youtu.be/pCgplg4TQxM",
-    "comment": "ズレ・局所発狂"
+    "comment": "ズレ・局所発狂",
+    "published": "2024-07-19"
+  },
+  {
+    "level": "12",
+    "title": "Infinite Dreams [Infinite Delays]",
+    "artist": "あとぅす feat.橘花音 obj. meta",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=142",
+    "md5": "b1f20bbc68f8c5db874a52a52e724faf",
+    "url_diff": "https://stellabms.xyz/upload/3858",
+    "url_youtube": "https://youtu.be/IeI2JB8A-8U",
+    "comment": "ディレイ、微縦",
+    "published": "2024-04-21"
   },
   {
     "level": "12",
@@ -207,7 +260,8 @@
     "md5": "afc04e97e5c1e7a7088abd951b000791",
     "url_diff": "https://darksabun.github.io/event/bofet/sabun/086_fr8_meta.zip",
     "url_youtube": "https://youtu.be/21G_xHwVrRU",
-    "comment": "皿"
+    "comment": "皿",
+    "published": "2022-12-11"
   },
   {
     "level": "12",
@@ -217,17 +271,30 @@
     "md5": "114b4492720dde14ef1a4abb3fada1d1",
     "url_diff": "https://stellabms.xyz/upload/1977",
     "url_youtube": "https://youtu.be/Qm8rVa9yHe8",
-    "comment": "物量"
+    "comment": "物量",
+    "published": "2022-09-21"
+  },
+  {
+    "level": "12",
+    "title": "Superluminality [Enlightened]",
+    "artist": "橙ミャオ / BGA:Black obj. meta",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=145&event=146",
+    "md5": "e88fd0ea046a1f3fbb9903102ede8e98",
+    "url_diff": "https://stellabms.xyz/upload/4694",
+    "url_youtube": "https://youtu.be/RttoZ4_XfNg",
+    "comment": "st2 微縦、皿複合　ややLN",
+    "published": "2024-11-30"
   },
   {
     "level": "12",
     "title": "バーチャルセラピー [インサニティ]",
-    "artist": "ふぃるまーち！（CV：ちょこ＆藍月なくる＆山田じぇみ子） MV: うまるつふり ＆ 自動車 原付 / obj:meta",
+    "artist": "ふぃるまーち！（CV：ちょこ＆藍月なくる＆山田じぇみ子）/ obj:meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=167&event=123",
     "md5": "69596e485c42ad27314bae774506c718",
     "url_diff": "https://stellabms.xyz/upload/1435",
     "url_youtube": "https://youtu.be/cMvz9zpknlU",
-    "comment": "縦連、癖譜面"
+    "comment": "短い縦連と長い縦連、癖譜面",
+    "published": "2021-12-31"
   },
   {
     "level": "13",
@@ -237,7 +304,8 @@
     "md5": "5efb238edf32ce3fcf674eec70d664e1",
     "url_diff": "https://stellabms.xyz/upload/1436",
     "url_youtube": "https://youtu.be/v4vl_ufKMVQ",
-    "comment": "皿、ラス殺し"
+    "comment": "皿、ラス殺し",
+    "published": "2021-12-31"
   },
   {
     "level": "13",
@@ -247,7 +315,8 @@
     "md5": "357b22449b136bfd7ce221628c2328eb",
     "url_diff": "https://stellabms.xyz/upload/3475",
     "url_youtube": "https://youtu.be/ZH6HUSr0D54",
-    "comment": "ズレ混じりの乱打、後半難、体力譜面"
+    "comment": "ズレ混じりの乱打、後半難、体力譜面",
+    "published": "2023-12-17"
   },
   {
     "level": "14",
@@ -257,7 +326,8 @@
     "md5": "c8c7a7aabddffc63e56f53f0187523dc",
     "url_diff": "https://stellabms.xyz/upload/4189",
     "url_youtube": "https://youtu.be/9CqT3Rjzjow",
-    "comment": "横に広いガチ押し"
+    "comment": "横に広いガチ押し",
+    "published": "2024-07-14"
   },
   {
     "level": "14",
@@ -267,6 +337,7 @@
     "md5": "6b1cebbe8a9417423aca3ef63bc1b458",
     "url_diff": "https://stellabms.xyz/upload/3859",
     "url_youtube": "https://youtu.be/s1rduekuAH4",
-    "comment": "中速乱打、縦連、ラス殺し"
+    "comment": "中速乱打、縦連、ラス殺し",
+    "published": "2024-04-21"
   }
 ]
