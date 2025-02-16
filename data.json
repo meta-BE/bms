@@ -111,6 +111,17 @@
   },
   {
     "level": "8",
+    "title": "カタバミ [OXALIS]",
+    "artist": "qfeileadh obj. meta",
+    "url": "https://event.yaruki0.net/BMSquare/impression/24",
+    "md5": "0d8c14ae1faeedaaf3d104bcac831428",
+    "url_diff": "https://stellabms.xyz/upload/5102",
+    "url_youtube": "https://youtu.be/ev0hTP4ACEc",
+    "comment": "LNとディレイ・ガチ押し・皿複合の絡み",
+    "published": "2025-02-16"
+  },
+  {
+    "level": "8",
     "title": "玉響サーチライト [顰蹙ロングノーツ]",
     "artist": "otoshi.b × みゅい & tolz × はしたかさん obj.meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=137",
@@ -161,7 +172,7 @@
     "md5": "0bbcf824051b19c6da354c615692d740",
     "url_diff": "https://stellabms.xyz/upload/4286",
     "url_youtube": "https://youtu.be/v9iUhGsWyxs",
-    "comment": "横譜面 たまに微縦と濃い乱打も",
+    "comment": "sl12 横譜面 たまに微縦と濃い乱打も",
     "published": "2024-08-18"
   },
   {
@@ -238,7 +249,7 @@
     "md5": "06991c7bdc221d6edc030fcfed2bd934",
     "url_diff": "https://stellabms.xyz/upload/4204",
     "url_youtube": "https://youtu.be/pCgplg4TQxM",
-    "comment": "ズレ・局所発狂",
+    "comment": "st1 ズレ・局所発狂",
     "published": "2024-07-19"
   },
   {
@@ -271,7 +282,7 @@
     "md5": "114b4492720dde14ef1a4abb3fada1d1",
     "url_diff": "https://stellabms.xyz/upload/1977",
     "url_youtube": "https://youtu.be/Qm8rVa9yHe8",
-    "comment": "物量",
+    "comment": "st2 物量",
     "published": "2022-09-21"
   },
   {
@@ -282,13 +293,13 @@
     "md5": "e88fd0ea046a1f3fbb9903102ede8e98",
     "url_diff": "https://stellabms.xyz/upload/4694",
     "url_youtube": "https://youtu.be/RttoZ4_XfNg",
-    "comment": "st2 微縦、皿複合　ややLN",
+    "comment": "st2 微縦、皿複合 ややLN",
     "published": "2024-11-30"
   },
   {
     "level": "12",
     "title": "バーチャルセラピー [インサニティ]",
-    "artist": "ふぃるまーち！（CV：ちょこ＆藍月なくる＆山田じぇみ子）/ obj:meta",
+    "artist": "ふぃるまーち！（CV：ちょこ＆藍月なくる＆山田じぇみ子） / obj:meta",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=167&event=123",
     "md5": "69596e485c42ad27314bae774506c718",
     "url_diff": "https://stellabms.xyz/upload/1435",
@@ -337,7 +348,6 @@
     "md5": "6b1cebbe8a9417423aca3ef63bc1b458",
     "url_diff": "https://stellabms.xyz/upload/3859",
     "url_youtube": "https://youtu.be/s1rduekuAH4",
-    "comment": "中速乱打、縦連、ラス殺し",
-    "published": "2024-04-21"
+    "comment": "中速乱打、縦連、ラス殺し"
   }
 ]
