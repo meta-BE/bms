@@ -11,6 +11,17 @@
     "published": "2024-07-18"
   },
   {
+    "level": "0",
+    "title": "Sunset Toybox [Punica]",
+    "artist": "テヅカ x Aoi feat.桃雛なの obj. meta",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=498&event=133",
+    "md5": "8be4009adb3ede9e82a4fc2189e9c776",
+    "url_diff": "https://stellabms.xyz/upload/5668",
+    "url_youtube": "https://youtu.be/qKWyqw5DeLg",
+    "comment": "やりがいのある☆11 ほぼ全要素の詰め合わせ",
+    "published": "2025-05-26"
+  },
+  {
     "level": "1",
     "title": "Assault TAXI [Cubic]",
     "artist": "∀S∀ obj. meta",
@@ -42,6 +53,17 @@
     "url_youtube": "https://youtu.be/G7O2hjNoMjM",
     "comment": "物量",
     "published": "2016-10-11"
+  },
+  {
+    "level": "3",
+    "title": "薄明 [Focus]",
+    "artist": "bitterlettuce+Cutos+Fran* obj. meta",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=405&event=137",
+    "md5": "5f14a711a27ccab2c4542fdcdd1c5e5e",
+    "url_diff": "https://stellabms.xyz/upload/5667",
+    "url_youtube": "https://youtu.be/RzvBA3ZELo0",
+    "comment": "ゆるガチ押し LNとか皿複合とか",
+    "published": "2025-05-26"
   },
   {
     "level": "4",
@@ -166,17 +188,6 @@
   },
   {
     "level": "9",
-    "title": "チェケナ [オーナイ]",
-    "artist": "Micelle obj. meta",
-    "url": "https://venue.bmssearch.net/bmstukuru2025/2",
-    "md5": "a360c3f192ba75e480381bb24092fcae",
-    "url_diff": "https://stellabms.xyz/upload/5599",
-    "url_youtube": "https://youtu.be/F5a_3zOqpy0",
-    "comment": "皿複合と乱打と少し嫌がらせのギミック",
-    "published": "2025-05-15"
-  },
-  {
-    "level": "9",
     "title": "レシュノルティア [あなたの横に]",
     "artist": "あとぅす feat.はらもりよしな obj. meta",
     "url": "https://venue.bmssearch.net/hanadayori/21",
@@ -229,6 +240,17 @@
     "url_youtube": "https://youtu.be/U1B8ET8_HpY",
     "comment": "超総合譜面 ソフランとLN強め 差分修正有",
     "published": "2024-11-30"
+  },
+  {
+    "level": "10",
+    "title": "チェケナ [オーナイ]",
+    "artist": "Micelle obj. meta",
+    "url": "https://venue.bmssearch.net/bmstukuru2025/2",
+    "md5": "a360c3f192ba75e480381bb24092fcae",
+    "url_diff": "https://stellabms.xyz/upload/5599",
+    "url_youtube": "https://youtu.be/F5a_3zOqpy0",
+    "comment": "皿複合と乱打と少し嫌がらせのギミック",
+    "published": "2025-05-15"
   },
   {
     "level": "11",
