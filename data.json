@@ -2,7 +2,7 @@
   {
     "level": "0",
     "title": "FAN Service [SEPTEN]",
-    "artist": "D.J.UNINSTALL VS Trebuchet obj. meta",
+    "artist": "D.J.UNINSTALL VS Trebuchet",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=47&event=145",
     "md5": "3e664bbcf6c420259ad956655f634b39",
     "url_diff": "https://stellabms.xyz/upload/4203",
@@ -13,7 +13,7 @@
   {
     "level": "0",
     "title": "Sunset Toybox [Punica]",
-    "artist": "テヅカ x Aoi feat.桃雛なの obj. meta",
+    "artist": "テヅカ x Aoi feat.桃雛なの",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=498&event=133",
     "md5": "8be4009adb3ede9e82a4fc2189e9c776",
     "url_diff": "https://stellabms.xyz/upload/5668",
@@ -24,7 +24,7 @@
   {
     "level": "1",
     "title": "Assault TAXI [Cubic]",
-    "artist": "∀S∀ obj. meta",
+    "artist": "∀S∀",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=214&event=142",
     "md5": "7852d269029ad2deefaf6d65e9ead8ab",
     "url_diff": "https://stellabms.xyz/upload/3453",
@@ -35,7 +35,7 @@
   {
     "level": "1",
     "title": "your gaze [Teknique]",
-    "artist": "Valentina G. obj. meta",
+    "artist": "Valentina G.",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=28&event=132",
     "md5": "dd0da159c9a0d156fa7dee0824d2ed66",
     "url_diff": "https://stellabms.xyz/upload/1945",
@@ -46,7 +46,7 @@
   {
     "level": "2",
     "title": "Once in my life [Cosmos]",
-    "artist": "Manaka Takane feat.Nananao / obj.meta",
+    "artist": "Manaka Takane feat.Nananao",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=261&event=74",
     "md5": "1b44b5fbd4ed918480bb337f4563e273",
     "url_diff": "https://gnqg.rosx.net/upload/upload.cgi?get=00072",
@@ -57,7 +57,7 @@
   {
     "level": "3",
     "title": "薄明 [Focus]",
-    "artist": "bitterlettuce+Cutos+Fran* obj. meta",
+    "artist": "bitterlettuce+Cutos+Fran*",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=405&event=137",
     "md5": "5f14a711a27ccab2c4542fdcdd1c5e5e",
     "url_diff": "https://stellabms.xyz/upload/5667",
@@ -68,7 +68,7 @@
   {
     "level": "4",
     "title": "energy trixxx [IIDXXX]",
-    "artist": "KAH BGA:自動車 原付 / illust:手鞠鈴 / obj.meta",
+    "artist": "KAH BGA:自動車 原付 / illust:手鞠鈴",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=72&event=123",
     "md5": "5fd1a11a4cbeecdff028d1ddcc83fd5b",
     "url_diff": "https://gnqg.rosx.net/upload/upload.cgi?get=02421",
@@ -79,7 +79,7 @@
   {
     "level": "6",
     "title": "IN (Horsecore Remix) [SP IRREGULAR]",
-    "artist": "Zris Remixed by Daily / obj by meta",
+    "artist": "Zris Remixed by Daily",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=89&event=138",
     "md5": "81c1eaf460279f832e13dd0b8626b000",
     "url_diff": "https://stellabms.xyz/upload/1876",
@@ -90,7 +90,7 @@
   {
     "level": "6",
     "title": "Miracletale [Alkatale]",
-    "artist": "kooridori & TRIAL obj. meta",
+    "artist": "kooridori & TRIAL",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=67&event=142",
     "md5": "92373c284bacef90e9a0a8e461d256b8",
     "url_diff": "https://stellabms.xyz/upload/6549",
@@ -100,8 +100,19 @@
   },
   {
     "level": "6",
+    "title": "Now they sing, now they sob [Cryptolith]",
+    "artist": "庭師",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=366&event=149",
+    "md5": "a6de52e9d0fbbce37243e2c898c5d359",
+    "url_diff": "https://stellabms.xyz/upload/6659",
+    "url_youtube": "https://youtu.be/d09vG0xK2RE",
+    "comment": "本家ボス曲風 しいて言うなら微縦",
+    "published": "2025-11-08"
+  },
+  {
+    "level": "6",
     "title": "Plastic Heart [Silver Shoes]",
-    "artist": "Abel & Palami obj. meta",
+    "artist": "Abel & Palami",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=390&event=142",
     "md5": "aa81b12dda5549ef60fd4d7e267eb705",
     "url_diff": "https://stellabms.xyz/upload/3588",
@@ -112,7 +123,7 @@
   {
     "level": "7",
     "title": "Curse of the crimson [Fumeux]",
-    "artist": "鈎兎(KagiUsagi) obj. meta",
+    "artist": "鈎兎(KagiUsagi)",
     "url": "https://9domu46i.com/yuruyuru/phase23.html",
     "md5": "7b9156ff60539ffc9bd5a740a976f436",
     "url_diff": "https://stellabms.xyz/upload/6384",
@@ -123,7 +134,7 @@
   {
     "level": "7",
     "title": "techno-pain [Torment]",
-    "artist": "TaW obj. meta",
+    "artist": "TaW",
     "url": "https://venue.bmssearch.net/bmstukuru2024/43",
     "md5": "35f5f4b29226df08a5d4fdd379b5bd0f",
     "url_diff": "https://stellabms.xyz/upload/3859",
@@ -134,7 +145,7 @@
   {
     "level": "8",
     "title": "CAT ROTATION [STOKES]",
-    "artist": "かたぎり obj. meta",
+    "artist": "かたぎり",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=24&event=148",
     "md5": "4d884d101d121c755929dd8a67dc41b4",
     "url_diff": "https://stellabms.xyz/upload/6009",
@@ -145,7 +156,7 @@
   {
     "level": "8",
     "title": "Rush-Hour [RUSH-H-WHA]",
-    "artist": "litmus* obj.meta",
+    "artist": "litmus*",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=8&event=140",
     "md5": "db3cf43be08c01b8ba1016a523ae6e75",
     "url_diff": "https://drive.google.com/file/d/14bvg0PMFgAFFN0k1TPLW4OXNRgfyesJg/view?usp=sharing",
@@ -156,7 +167,7 @@
   {
     "level": "8",
     "title": "アジサイ [Σacrophylla]",
-    "artist": "litmus* feat. 薛南 obj.meta",
+    "artist": "litmus* feat. 薛南",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=167&event=137",
     "md5": "848fcafdb11413ad90c2348690f4cb3c",
     "url_diff": "https://stellabms.xyz/upload/3183",
@@ -167,7 +178,7 @@
   {
     "level": "8",
     "title": "カタバミ [OXALIS]",
-    "artist": "qfeileadh obj. meta",
+    "artist": "qfeileadh",
     "url": "https://event.yaruki0.net/BMSquare/impression/24",
     "md5": "0d8c14ae1faeedaaf3d104bcac831428",
     "url_diff": "https://stellabms.xyz/upload/5102",
@@ -178,7 +189,7 @@
   {
     "level": "8",
     "title": "玉響サーチライト [顰蹙ロングノーツ]",
-    "artist": "otoshi.b × みゅい & tolz × はしたかさん obj.meta",
+    "artist": "otoshi.b × みゅい & tolz × はしたかさん",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=137",
     "md5": "920681fab30341e9f8f94351e46eb352",
     "url_diff": "https://stellabms.xyz/upload/1962",
@@ -189,7 +200,7 @@
   {
     "level": "8",
     "title": "風時夏 [Long Vacation]",
-    "artist": "otoshi.b BGI:鈴木なるひ obj. meta",
+    "artist": "otoshi.b BGI:鈴木なるひ",
     "url": "https://venue.bmssearch.net/bmskanji2/23",
     "md5": "b40456b04fd7d8e6acbcbcc223e27c6f",
     "url_diff": "https://stellabms.xyz/upload/3965",
@@ -200,7 +211,7 @@
   {
     "level": "9",
     "title": "Rainforest [IRREGULAR]",
-    "artist": "白羽 BGI : やむちゃ / Typography : 千廻 / obj : meta",
+    "artist": "白羽 BGI : やむちゃ / Typography : 千廻",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=48&event=141",
     "md5": "fd319545bc6bdd17691a6ddeb5b61bb5",
     "url_diff": "https://stellabms.xyz/upload/3184",
@@ -211,7 +222,7 @@
   {
     "level": "9",
     "title": "Save the Water [Tempest]",
-    "artist": "Nami Haven obj.meta",
+    "artist": "Nami Haven",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=129",
     "md5": "3b2e1aeeaad80cc5f5b9409a5b7a6e57",
     "url_diff": "https://stellabms.xyz/upload/2451",
@@ -222,7 +233,7 @@
   {
     "level": "9",
     "title": "レシュノルティア [あなたの横に]",
-    "artist": "あとぅす feat.はらもりよしな obj. meta",
+    "artist": "あとぅす feat.はらもりよしな",
     "url": "https://venue.bmssearch.net/hanadayori/21",
     "md5": "0bbcf824051b19c6da354c615692d740",
     "url_diff": "https://stellabms.xyz/upload/4286",
@@ -233,7 +244,7 @@
   {
     "level": "10",
     "title": "Cosy Comfy Clumsy [Calamity]",
-    "artist": "Ichigo Kawai & Choco Kawai obj. meta",
+    "artist": "Ichigo Kawai & Choco Kawai",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=145",
     "md5": "2a061e4ffba66425086a75915b955cb7",
     "url_diff": "https://stellabms.xyz/upload/4210",
@@ -244,7 +255,7 @@
   {
     "level": "10",
     "title": "Life is PIANO [Power is POWER]",
-    "artist": "Junk obj.meta",
+    "artist": "Junk",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=375&event=123",
     "md5": "12d8d9fe45566ce0c1b8b27ebfad2c2c",
     "url_diff": "https://stellabms.xyz/upload/390",
@@ -255,7 +266,7 @@
   {
     "level": "10",
     "title": "ORDER [CHAOS]",
-    "artist": "outlogic obj. meta",
+    "artist": "outlogic",
     "url": "https://venue.bmssearch.net/genreshuffle4/46",
     "md5": "12933bd037d8e5197302b1038069b740",
     "url_diff": "https://stellabms.xyz/upload/4119",
@@ -266,7 +277,7 @@
   {
     "level": "10",
     "title": "VECTOR↑ZΣ [ΣATR↑X]",
-    "artist": "Trina Lydia / obj. meta",
+    "artist": "Trina Lydia",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=212&event=146",
     "md5": "950eb6d96b25353b8a300b963c1a9665",
     "url_diff": "https://darksabun.github.io/event/boftt/sabun/212_fr6_meta.zip",
@@ -276,8 +287,19 @@
   },
   {
     "level": "10",
+    "title": "ZERO [Synergism]",
+    "artist": "Notorious (Nota & TRIAL)",
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=181&event=149",
+    "md5": "db5907386677a4f0c98abfc06561e1a4",
+    "url_diff": "https://stellabms.xyz/upload/6682",
+    "url_youtube": "https://youtu.be/IUysCEL9olk",
+    "comment": "遊べるギミック譜面",
+    "published": "2025-11-15"
+  },
+  {
+    "level": "10",
     "title": "チェケナ [オーナイ]",
-    "artist": "Micelle obj. meta",
+    "artist": "Micelle",
     "url": "https://venue.bmssearch.net/bmstukuru2025/2",
     "md5": "a360c3f192ba75e480381bb24092fcae",
     "url_diff": "https://stellabms.xyz/upload/5599",
@@ -288,7 +310,7 @@
   {
     "level": "11",
     "title": "$trange Attraktor [$cramble]",
-    "artist": "schwarzekugel BGA:出前 obj.meta",
+    "artist": "schwarzekugel",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=7&event=133",
     "md5": "7a86048b35c91d6a98b4964328b2be2c",
     "url_diff": "https://stellabms.xyz/upload/1437",
@@ -299,7 +321,7 @@
   {
     "level": "11",
     "title": "Aerial [Godspeed]",
-    "artist": "Kucchi obj.meta",
+    "artist": "Kucchi",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=44&event=137",
     "md5": "381691eb04c31daeb1b5375915652f4c",
     "url_diff": "https://stellabms.xyz/upload/1965",
@@ -310,7 +332,7 @@
   {
     "level": "11",
     "title": "Written in the stars [Stellarum]",
-    "artist": "Infinite Dream Routes obj. meta",
+    "artist": "Infinite Dream Routes",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=34&event=145",
     "md5": "06991c7bdc221d6edc030fcfed2bd934",
     "url_diff": "https://stellabms.xyz/upload/4204",
@@ -321,7 +343,7 @@
   {
     "level": "12",
     "title": "Infinite Dreams [Infinite Delays]",
-    "artist": "あとぅす feat.橘花音 obj. meta",
+    "artist": "あとぅす feat.橘花音",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=142",
     "md5": "b1f20bbc68f8c5db874a52a52e724faf",
     "url_diff": "https://stellabms.xyz/upload/3858",
@@ -332,7 +354,7 @@
   {
     "level": "12",
     "title": "Melotte 333 [Achilles 588]",
-    "artist": "sun3 / BGA:Johnny obj.meta",
+    "artist": "sun3",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=140",
     "md5": "afc04e97e5c1e7a7088abd951b000791",
     "url_diff": "https://darksabun.github.io/event/bofet/sabun/086_fr8_meta.zip",
@@ -343,7 +365,7 @@
   {
     "level": "12",
     "title": "Non Return to Zero [Manchesther]",
-    "artist": "Rakuno.α obj.meta",
+    "artist": "Rakuno.α",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=137",
     "md5": "114b4492720dde14ef1a4abb3fada1d1",
     "url_diff": "https://stellabms.xyz/upload/1977",
@@ -354,7 +376,7 @@
   {
     "level": "12",
     "title": "Superluminality [Enlightened]",
-    "artist": "橙ミャオ / BGA:Black obj. meta",
+    "artist": "橙ミャオ",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=145&event=146",
     "md5": "e88fd0ea046a1f3fbb9903102ede8e98",
     "url_diff": "https://stellabms.xyz/upload/4694",
@@ -365,7 +387,7 @@
   {
     "level": "12",
     "title": "バーチャルセラピー [インサニティ]",
-    "artist": "ふぃるまーち！（CV：ちょこ＆藍月なくる＆山田じぇみ子） / obj:meta",
+    "artist": "ふぃるまーち！（CV：ちょこ＆藍月なくる＆山田じぇみ子）",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=167&event=123",
     "md5": "69596e485c42ad27314bae774506c718",
     "url_diff": "https://stellabms.xyz/upload/1435",
@@ -376,7 +398,7 @@
   {
     "level": "13",
     "title": "Celestial Axes [700nm]",
-    "artist": "------ obj. meta",
+    "artist": "------",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=119",
     "md5": "5efb238edf32ce3fcf674eec70d664e1",
     "url_diff": "https://stellabms.xyz/upload/1436",
@@ -387,7 +409,7 @@
   {
     "level": "13",
     "title": "Volanphantasia [Flutter]",
-    "artist": "VeetaCrush bga: MANAKA obj: meta",
+    "artist": "VeetaCrush",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=47&event=142",
     "md5": "357b22449b136bfd7ce221628c2328eb",
     "url_diff": "https://stellabms.xyz/upload/3475",
@@ -398,7 +420,7 @@
   {
     "level": "14",
     "title": "FREEDOM DiVE↓ (\"CHORD\" Special)",
-    "artist": "xi obj. meta",
+    "artist": "xi",
     "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=15&event=50",
     "md5": "c8c7a7aabddffc63e56f53f0187523dc",
     "url_diff": "https://stellabms.xyz/upload/4189",
@@ -409,7 +431,7 @@
   {
     "level": "14",
     "title": "techno-pain [Judgment]",
-    "artist": "TaW obj. meta",
+    "artist": "TaW",
     "url": "https://venue.bmssearch.net/bmstukuru2024/43",
     "md5": "6b1cebbe8a9417423aca3ef63bc1b458",
     "url_diff": "https://stellabms.xyz/upload/3859",
