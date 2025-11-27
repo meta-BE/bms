@@ -19,6 +19,7 @@
       }
 
       tr.table_header,
+      tr.table_total,
       tr.row_level {
         color: white;
         background-color: #222;
@@ -48,6 +49,9 @@
     <div class="tableflame">
       <table cellspacing="1" cellpadding="2" id="bmstable">
         <thead>
+          <tr class="table_total">
+            <td colspan="8" class="all">meta自作差分一覧</td>
+          </tr>
           <tr class="table_header">
             <th scope="col">Lv</th>
             <th scope="col">Title / LR2IR</th>
@@ -55,6 +59,7 @@
             <th scope="col">Chart</th>
             <th scope="col">Preview</th>
             <th scope="col">Comment</th>
+            <th scope="col">Rating</th>
             <th scope="col">Published</th>
           </tr>
         </thead>
@@ -106,6 +111,11 @@
         }
         // comment
         rowRef.insertCell(-1).appendChild(document.createTextNode(song.comment ?? ""));
+        // rating
+        const rating = document.createElement("span");
+        rating.style.whiteSpace = "nowrap";
+        rating.appendChild(document.createTextNode(song.rating ?? ""));
+        rowRef.insertCell(-1).appendChild(rating);
         // published
         const published = document.createElement("span");
         published.style.whiteSpace = "nowrap";
@@ -117,7 +127,7 @@
         const rowRef = tableRef.insertRow(-1);
         rowRef.classList.add("row_level");
         const cell = rowRef.insertCell(-1);
-        cell.setAttribute("colspan", 7);
+        cell.setAttribute("colspan", 8);
         cell.classList.add("level" + level);
         cell.appendChild(document.createTextNode(`${symbol}${level}`));
       };
@@ -126,10 +136,15 @@
         const target = document.querySelector("table#bmstable td.level" + level);
         target.innerHTML = target.innerHTML + ` (${count} Songs)`;
       };
+      const modifyTotalSongs = (count) => {
+        const target = document.querySelector("table#bmstable td.all");
+        target.innerHTML = target.innerHTML + ` (${count} Songs)`;
+      };
 
       const makeTable = (header, data) => {
         let currentLevel = undefined;
         let songsCountInLevel = 0;
+        let songsTotal = 0;
         const tableRef = document.querySelector("table#bmstable tbody");
         const symbol = header.symbol;
         data.forEach((song) => {
@@ -143,8 +158,10 @@
           }
           addSong(tableRef, symbol, song);
           songsCountInLevel++;
+          songsTotal++;
         });
         modifyBeforeLevel(currentLevel, songsCountInLevel);
+        modifyTotalSongs(songsTotal);
       };
 
       const headerUrl = document.querySelector('meta[name="bmstable"]').content;
