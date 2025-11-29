@@ -19,6 +19,7 @@
       }
 
       tr.table_header,
+      tr.table_total,
       tr.row_level {
         color: white;
         background-color: #222;
@@ -46,7 +47,7 @@
     <div class="description">
       ざっくり難易度：Σ0 = sl0, Σ1桁は★÷2くらい, Σ10 = st0, Σ11 = st1, …<br />
       イージー基準、基本的にハード難<br /><br />
-      ★は完成度とかやりたいことに対してどれだけ十分表現しきれたかみたいな指標<br /><br />
+      ★は完成度とかやりたいことに対してどれだけ十分表現しきれたかみたいな指標<br />
       あとTOTALの値、前後半のバランスなど難易度調整がきちんとできてるか<br />
       譜面傾向はあまり気にしてないので高くても万人受けするとかではない
     </div>
@@ -55,7 +56,7 @@
       <table cellspacing="1" cellpadding="2" id="bmstable">
         <thead>
           <tr class="table_total">
-            <td colspan="8" class="all">meta自作差分一覧 (42 Songs)</td>
+            <th colspan="8" class="all">meta自作差分一覧 (42 Songs)</td>
           </tr>
           <tr class="table_header">
             <th scope="col">Lv</th>
