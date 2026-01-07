@@ -139,8 +139,8 @@
     "md5": "92373c284bacef90e9a0a8e461d256b8",
     "url_diff": "https://stellabms.xyz/upload/6549",
     "url_youtube": "https://youtu.be/rqI94YNoZzk",
-    "comment": "ちょっと難易度低めの総合譜面 本家のデフォ☆12のイメージ",
-    "rating": "★★☆☆☆",
+    "comment": "ちょっと難易度低めの総合譜面 本家のデフォ☆12+ギミックのイメージ",
+    "rating": "★★★☆☆",
     "published": "2025-10-23"
   },
   {
@@ -175,7 +175,7 @@
     "md5": "7b9156ff60539ffc9bd5a740a976f436",
     "url_diff": "https://stellabms.xyz/upload/6384",
     "url_youtube": "https://youtu.be/BZ7sc4Xdsj4",
-    "comment": "furioso melodiaリスペクト 総合譜面",
+    "comment": "furioso melodiaリスペクト 総合譜面 ラスト回復なだけで普通に★17くらいある",
     "rating": "★★★☆☆",
     "published": "2025-09-28"
   },
@@ -190,6 +190,18 @@
     "comment": "中速乱打、縦連、少しLN",
     "rating": "★★★★☆",
     "published": "2024-04-21"
+  },
+  {
+    "level": "7",
+    "title": "星月トラジコメディー [朔望デュアリティー]",
+    "artist": "Yonder Voice",
+    "url": "https://venue.bmssearch.net/tohobmsr/27",
+    "md5": "e9f6b0afacb17575521921fe6745cd61",
+    "url_diff": "https://stellabms.xyz/upload/6914",
+    "url_youtube": "https://youtu.be/OQ3Kh-bAWgM",
+    "comment": "LN、微縦、ディレイ",
+    "rating": "★★★★☆",
+    "published": "2026-01-05"
   },
   {
     "level": "8",
