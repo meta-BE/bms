@@ -11,7 +11,7 @@
         { "name": "silvermedal", "missrate": 5.0, "scorerate": 70.0 },
         { "name": "goldmedal", "missrate": 2.5, "scorerate": 85.0 }
       ],
-      "md5": ["d2264019f2a9682c4fc88d07ca6979dd", "02fd0a7beaded078d6c68ae4480c5908", "536cc21edc55c4df9e2aa998ccbd1f8f", "e22d5e0307dffe43424087d0feef39e0"]
+      "md5": ["413d2785ba57673a12c38f6a2508d48b", "02fd0a7beaded078d6c68ae4480c5908", "d2264019f2a9682c4fc88d07ca6979dd", "e22d5e0307dffe43424087d0feef39e0"]
     }
   ]
 }
